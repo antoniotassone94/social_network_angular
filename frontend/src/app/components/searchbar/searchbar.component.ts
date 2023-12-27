@@ -10,7 +10,7 @@ import {NgForm} from "@angular/forms";
 export class SearchBarComponent{
   public searchNow(form:NgForm):void{
     if(form.valid){
-      console.log(form);
+      console.log(form.value);
     }
   }
 }
