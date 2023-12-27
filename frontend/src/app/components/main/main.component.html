@@ -1,0 +1,5 @@
+<app-navbar></app-navbar>
+<div class="link-container" *ngFor="let live of listLiveCard">
+  <app-livecard [title]="live.title" [partecipants]="live.partecipants" [dateTime]="live.dateTime"></app-livecard>
+</div>
+<router-outlet></router-outlet>
