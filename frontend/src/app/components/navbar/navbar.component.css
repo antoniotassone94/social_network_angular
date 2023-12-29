@@ -1,0 +1,15 @@
+nav{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+}
+
+.buttons-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:right;
+}
+
+.buttons-container,.searchbar-container,img{
+  width:33%;
+}
